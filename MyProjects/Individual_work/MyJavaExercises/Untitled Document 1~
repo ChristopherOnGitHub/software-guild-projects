@@ -1,0 +1,9 @@
+Depends, you use a method to set the keys. You can use one to set the values. You can use a method to .put or .add to the hashmap.
+
+Depends on if you have an object as your value. If yes then 1.
+
+.put or .add
+
+Referencing older assignments.
+
+Giving a reference to a class in <> brackets i.e. <T> for type and <K> for key.

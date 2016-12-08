@@ -1,0 +1,21 @@
+1. A variable is something that a value assigned to it
+2. When you assign a type to a variable with giving it a value (ex: int x;)
+3.Giving value to a variable ex: x=2;
+4.Yes ex: int x=2;
+5.yes but they must be the same type
+6.void
+7.I guess it depends on personal preference?
+8.public or private, static or non-static, return type, method name
+9.the stuff that you are importing from the main
+10.1
+11.no
+12.brings in a java utility (Scanner, Random, etc)
+13.PascalCase
+14.camelCase
+15.camelCase
+16.the code that executes inside of a method before it returns something
+17.a collection of variables of the same type
+18.for counting or any other time you know when the loop is supposed to end
+19.do while loops exectue the code before checking the conditional, whiles check before
+20.A more organized way of listing a large amount of if/else statements
+21.Everything inside of a declared method

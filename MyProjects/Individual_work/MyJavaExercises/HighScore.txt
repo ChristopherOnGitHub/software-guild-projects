@@ -1,0 +1,3 @@
+Christopher Floyd, set a new high score.
+ 
+The new high score is: 1234.0

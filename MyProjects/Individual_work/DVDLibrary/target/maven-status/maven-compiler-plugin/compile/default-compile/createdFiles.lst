@@ -1,0 +1,5 @@
+com/tsguild/dvdlibrary/dto/Movie.class
+com/tsguild/dvdlibrary/ui/ConsoleIO.class
+com/tsguild/dvdlibrary/ops/DVDController.class
+com/tsguild/dvdlibrary/dao/DVDDAO.class
+com/tsguild/dvdlibrary/app/DVDapp.class

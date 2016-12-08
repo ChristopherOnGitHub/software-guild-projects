@@ -1,0 +1,10 @@
+State,TaxRate
+OH,6.25
+PA,6.75
+MI,5.75
+IN,6.00
+AL,3.4
+AK,1.0
+OR,0.0
+WA,9.9
+XE,100.0

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Number Adder</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <script type="text/javascript">
+            total = parseInt(0);
+        </script>
+        <div class="container">
+            <div class="jumbotron">
+                <h4>Add Em Up Add Em Up Add Em Up Add Em Up Add Em Up Add Em Up Add Em Up </h4> 
+                <div class="results"></div>
+
+                <script type="text/javascript">
+                    function addEm() {
+
+                        var x = parseInt(document.getElementById("numberToAdd").value);
+
+                        total = total + x;
+
+                        document.querySelector('.results').innerHTML = total;
+                    }
+
+                </script> 
+
+                <script type="text/javascript">
+                    function reset() {
+
+                    total = 0;
+                    document.querySelector('.results').innerHTML = total;
+                    }
+                </script>
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-xs-6">
+                <center><h3>Number Adder!</h3></center>
+
+            </div>
+
+            <div class="col-xs-6">
+                <center><h3><input type="number" id="numberToAdd"></h3></center>
+            </div>
+        </div>  
+        <br/>
+        <div class="row">
+            <div class="col-xs-6">
+                <center>
+                    <button onclick="addEm()">Just Do It!</button>
+                </center>
+
+            </div>
+            <div class="col-xs-6">
+                <center>
+                    <button onclick="reset()">Reset It!</button>
+                </center>
+            </div>
+        </div>   
+        <br/>
+        <br/>
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

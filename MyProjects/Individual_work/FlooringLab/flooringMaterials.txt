@@ -1,0 +1,12 @@
+Standard Carpet,2.25,1.21
+Laminate,1.75,1.10
+Tile,3.50,1.12
+Wood - Mahogany,9.20,2.12
+Shag Carpet,3.45,1.21
+Concrete,6.45,7.12
+Solid Gold,12342.56,112.45
+Wood - Oak,6.12,5112
+Wood - Pine,6.34,1.12
+Solid Diamond,45847.01,867.8
+Marble,189.4,50
+Granite,74,30
