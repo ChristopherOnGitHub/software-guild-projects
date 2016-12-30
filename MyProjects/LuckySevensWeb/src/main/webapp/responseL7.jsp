@@ -10,8 +10,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="/LuckySevensWeb/Stylesheet/LuckySevensStylesheet.css" rel="stylesheet">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Lucky Sevens Results</title>
     </head>
 
     <body>
@@ -28,10 +29,10 @@
             <h3>Starting Bet: $<c:out value="${beginningBet}"></c:out></h3>
             <h3>Number of Rolls Before Broke: <c:out value="${rolls}"></c:out></h3>
             <h3>Maximum Won: $<c:out value="${maxWin}"></c:out></h3>
-            <h3>Max Won on Roll #<c:out value="${maxWinRoll}"></c:out></h3>
+            <h3>Max Won on Roll: <c:out value="${maxWinRoll}"></c:out></h3>
         </c:if>
 
-        <a href="http://localhost:8080/LuckySevensWeb/LuckySevens.html">
+        <a href="http://localhost:8080/LuckySevensWeb">
             Play Again!
         </a>
 

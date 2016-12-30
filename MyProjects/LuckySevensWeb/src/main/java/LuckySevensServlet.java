@@ -104,7 +104,7 @@ public class LuckySevensServlet extends HttpServlet {
                 }
             }
             
-            if(startingBet <= 0){
+            if(beginningBet <= 0){
                 badInput = true;
             }
 

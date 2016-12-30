@@ -3,12 +3,16 @@
     <head>
         <title>Lucky Sevens</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/LuckySevensWeb/Stylesheet/LuckySevensStylesheet.css" rel="stylesheet">
     </head>
     <body>
     <center>
         <h1>Lucky Sevens</h1>
+        <h3>Bet $1 per roll</h3>
+        <h3>If you roll a 7, you win $4</h3>
+        <h3>Keeps rolling until you are out of money</h3>
         <form action='LuckySevensServlet' method='POST'>
-            Starting Bet: <input type="text" name="startingBet">
+            <h3 style="display: inline">Starting Bet: $</h3><input type="text" name="startingBet">
             <input type="submit" value="PLAY!">
         </form>
     </center>
