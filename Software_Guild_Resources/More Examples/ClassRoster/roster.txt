@@ -1,3 +1,0 @@
-4444::James::Jones::JAVA
-5577::Steve::Smith::Java-Sept2013
-5555::Johnny::Cash::Java-January2014
